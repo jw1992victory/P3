@@ -1,0 +1,162 @@
+footer {
+    text-align: right;
+    height: 100px;
+    width: 100%;
+    padding: 25px 15px;
+}
+
+footer img {
+    width: 30px;
+    height: 18px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+.navigation_title {
+    float: left;
+}
+
+.navigation_title a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation_title a:hover {
+    background-color: grey;
+}
+
+.instruction {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.instruction:hover {
+    border: none;
+    border-right: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+}
+
+.content {
+    margin: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.error {
+    color: red;
+    background-color: transparent;
+    margin-top: -15px;
+}
+
+.input_text {
+    width: 50px;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: left;
+}
+
+.flag {
+    width: 20px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.selection {
+    clear: both;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.bottom_margin {
+    margin-bottom: 50px;
+}
+
+.choice_title {
+    font-size: 1.2em;
+}
+
+.choices_list {
+    clear: both;
+    display: block;
+}
+
+.choice {
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+#bootstrap-overrides input[type="radio"] {
+    margin-right: 20px;
+}
+
+.input_region {
+    clear: both;
+    display: inline-block;
+}
+
+.user {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+.user:hover {
+    border: none;
+    border-right: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+}
+
+.photo {
+    float: left;
+    padding-left: 20px;
+}
+
+.details {
+    float: right;
+    padding-right: 30px;
+}
+
+.password {
+    font-size: 3em;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    display: inline-block;
+    line-height: normal;
+    margin-top: 15px;
+    text-transform: lowercase;
+    color: darkorange;
+    font-weight: bold;
+}
