@@ -50,7 +50,7 @@ class RandomUserGeneratorController extends Controller
 
         $users = [];
 
-        $response = \GuzzleHttp\json_decode($response->getBody()->getContents(), true);
+        $response = json_decode($response->getBody()->getContents(), true);
 
         if ($length == 1) {
             $users[] = $response;
