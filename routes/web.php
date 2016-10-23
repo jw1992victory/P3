@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomePageController@index')->name('HomePage.index');
 
 Route::get('homepage', 'HomePageController@index')->name('HomePage.index');
 
