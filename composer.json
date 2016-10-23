@@ -9,7 +9,8 @@
         "laravel/framework": "5.3.*",
         "barryvdh/laravel-debugbar": "^2.3",
         "rych/random": "^0.1.0",
-        "badcow/lorem-ipsum": "^1.1"
+        "badcow/lorem-ipsum": "^1.1",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

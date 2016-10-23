@@ -18,7 +18,7 @@ such as a page specific stylesheets.
 @section('content')
     <h1>Random User Generator</h1>
     <p>What kind of User Info you want?</p>
-    <form method="POST" action="/P3/Public/RandomUserGenerator/generate">
+    <form method="POST" action="/P3/Public/randomusergenerator/generate">
         {{ csrf_field() }}
         <div class="selection">
             <p class="choice_title">How many number of Users you want? <input type="text" name="length" value="@yield('length', old("length"))" class="input_text"> (max of 99)</p>

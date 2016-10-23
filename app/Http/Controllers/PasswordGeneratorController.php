@@ -36,7 +36,7 @@ class PasswordGeneratorController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return redirect('PasswordGenerator')->withErrors($validator)->withInput();
+            return redirect('passwordgenerator')->withErrors($validator)->withInput();
         }
 
         if (!file_exists("words.csv")) {

@@ -33,7 +33,7 @@ class RandomUserGeneratorController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return redirect('RandomUserGenerator')->withErrors($validator)->withInput();
+            return redirect('randomusergenerator')->withErrors($validator)->withInput();
         }
 
         $length = $request->input('length');

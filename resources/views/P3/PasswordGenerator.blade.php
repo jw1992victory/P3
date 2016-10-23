@@ -9,7 +9,7 @@
 
     @yield('password')
 
-    <form  method='POST' action='/P3/Public/PasswordGenerator/generate'>
+    <form  method='POST' action='/P3/Public/passwordgenerator/generate'>
         {{ csrf_field() }}
         <p># of Words <input type="text" name="length" value="@yield('length', old("length"))"  class="input_text"> (max of 9)</p>
 

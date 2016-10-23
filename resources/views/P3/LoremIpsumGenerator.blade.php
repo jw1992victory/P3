@@ -7,7 +7,7 @@
 @section('content')
     <h1>Lorem Ipsum Generator</h1>
     <p>How many paragraphs do you want?</p>
-    <form method="POST" action="/P3/Public/LoremIpsumGenerator/generate">
+    <form method="POST" action="/P3/Public/loremipsumgenerator/generate">
         {{ csrf_field() }}
         <p>Paragraphs <input type="text" name="length" value="@yield('length', old("length"))" class="input_text"> (max of 99)</p>
         <p><input type="checkbox" name="random"> pick it for me!</p>

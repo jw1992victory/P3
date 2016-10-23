@@ -35,7 +35,7 @@ class LoremIpsumGeneratorController extends Controller
             ]);
 
             if ($validator->fails()) {
-                return redirect('LoremIpsumGenerator')->withErrors($validator)->withInput();
+                return redirect('loremipsumgenerator')->withErrors($validator)->withInput();
             }
 
             $length = $request->input('length');

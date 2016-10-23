@@ -14,10 +14,10 @@
 
 <header>
     <ul class="navigation">
-        <li class="navigation_title"><a href="/P3/Public/HomePage">Home Page</a></li>
-        <li class="navigation_title"><a href="/P3/Public/LoremIpsumGenerator">Lorem Ipsum Generator</a></li>
-        <li class="navigation_title"><a href="/P3/Public/RandomUserGenerator">Random User Generator</a></li>
-        <li class="navigation_title"><a href="/P3/Public/PasswordGenerator">Password Generator</a></li>
+        <li class="navigation_title"><a href="/P3/Public/homepage">Home Page</a></li>
+        <li class="navigation_title"><a href="/P3/Public/loremipsumgenerator">Lorem Ipsum Generator</a></li>
+        <li class="navigation_title"><a href="/P3/Public/randomusergenerator">Random User Generator</a></li>
+        <li class="navigation_title"><a href="/P3/Public/passwordgenerator">Password Generator</a></li>
     </ul>
 
 </header>
