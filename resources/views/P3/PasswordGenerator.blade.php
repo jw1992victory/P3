@@ -9,7 +9,7 @@
 
     @yield('password')
 
-    <form  method='POST' action='/P3/Public/passwordgenerator/generate'>
+    <form  method='POST' action='/passwordgenerator/generate'>
         {{ csrf_field() }}
         <p># of Words <input type="text" name="length" value="@yield('length', old("length"))"  class="input_text"> (max of 9)</p>
 
@@ -30,5 +30,5 @@
         @endif
     </div>
 
-    <img src="/P3/public/img/password_strength.png" alt="password strngth gif">
+    <img src="/img/password_strength.png" alt="password strngth gif">
 @endsection

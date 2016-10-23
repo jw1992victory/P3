@@ -14,10 +14,10 @@
 
 <header>
     <ul class="navigation">
-        <li class="navigation_title"><a href="/P3/Public/homepage">Home Page</a></li>
-        <li class="navigation_title"><a href="/P3/Public/loremipsumgenerator">Lorem Ipsum Generator</a></li>
-        <li class="navigation_title"><a href="/P3/Public/randomusergenerator">Random User Generator</a></li>
-        <li class="navigation_title"><a href="/P3/Public/passwordgenerator">Password Generator</a></li>
+        <li class="navigation_title"><a href="/homepage">Home Page</a></li>
+        <li class="navigation_title"><a href="/loremipsumgenerator">Lorem Ipsum Generator</a></li>
+        <li class="navigation_title"><a href="/randomusergenerator">Random User Generator</a></li>
+        <li class="navigation_title"><a href="/passwordgenerator">Password Generator</a></li>
     </ul>
 
 </header>
@@ -30,7 +30,7 @@
 </section>
 
 <footer>
-    wendy jiang @ {{ date('Y') }} <img class="picture" src="/P3/public/img/github.png"><a target="_blank" href="https://github.com/jw1992victory/P3">github</a>
+    wendy jiang @ {{ date('Y') }} <img class="picture" src="/img/github.png"><a target="_blank" href="https://github.com/jw1992victory/P3">github</a>
 </footer>
 
 @yield('body')
