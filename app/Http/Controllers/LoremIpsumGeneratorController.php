@@ -4,7 +4,6 @@ namespace P3\Http\Controllers;
 
 use Validator;
 use Illuminate\Http\Request;
-use P3\Http\Requests;
 
 class LoremIpsumGeneratorController extends Controller
 {

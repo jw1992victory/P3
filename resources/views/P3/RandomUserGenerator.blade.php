@@ -4,17 +4,6 @@
     Random User Generator
 @stop
 
-
-{{--
-This `head` section will be yielded right before the closing </head> tag.
-Use it to add specific things that *this* View needs in the head,
-such as a page specific stylesheets.
---}}
-@section('head')
-    <link href="/css/master.css" type='text/css' rel='stylesheet'>
-@stop
-
-
 @section('content')
     <h1>Random User Generator</h1>
     <p>What kind of User Info you want?</p>

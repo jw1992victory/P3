@@ -6,7 +6,6 @@ use Validator;
 use Illuminate\Http\Request;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Client;
-use P3\Http\Requests;
 
 class RandomUserGeneratorController extends Controller
 {
@@ -40,6 +39,7 @@ class RandomUserGeneratorController extends Controller
         $gender = $request->input('gender');
         $region = $request->input('region');
 
+        // send request to API
         $client = new  Client();
 
         try {

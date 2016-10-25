@@ -4,13 +4,6 @@
     Home Page
 @endsection
 
-
-{{--
-This `head` section will be yielded right before the closing </head> tag.
-Use it to add specific things that *this* View needs in the head,
-such as a page specific stylesheets.
---}}
-
 @section('content')
     <h1>Home Page for Project 3</h1>
     <p>Home Page for project 3: it contains two tools, Lorem Ipsum Generator and Random User Generator</p>
