@@ -133,25 +133,30 @@ input {
 .user {
     clear: both;
     display: inline-block;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     border: 1px solid black;
     border-radius: 10px;
     padding: 1%;
-    min-width: 32%;
+    width: 32%;
+    height: 22%;
+    overflow: hidden;
 }
 
 .user:hover {
     border: none;
     border-right: 5px solid lightgrey;
     border-bottom: 5px solid lightgrey;
+    overflow: auto;
 }
 
 .photo {
     float: left;
+    width: 30%;
 }
 
 .details {
     float: right;
+    width: 60%;
 }
 
 .password {
