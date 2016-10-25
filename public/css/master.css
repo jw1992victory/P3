@@ -1,10 +1,9 @@
 footer {
     text-align: right;
-    height: 100px;
     width: 100%;
-    padding: 15px 15px;
-    bottom: 0;
-    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    position: relative;
 }
 
 footer img {
@@ -52,6 +51,11 @@ footer img {
 
 .content {
     margin: 10px;
+}
+
+.wrapper {
+    height: auto;
+    min-height: 95%;
 }
 
 .button {

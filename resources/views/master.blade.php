@@ -12,28 +12,27 @@
 </head>
 <body>
 
-<header>
-    <ul class="navigation">
-        <li class="navigation_title"><a href="/homepage">Home Page</a></li>
-        <li class="navigation_title"><a href="/loremipsumgenerator">Lorem Ipsum Generator</a></li>
-        <li class="navigation_title"><a href="/randomusergenerator">Random User Generator</a></li>
-        <li class="navigation_title"><a href="/passwordgenerator">Password Generator</a></li>
-    </ul>
+    <div class="wrapper">
+        <header>
+            <ul class="navigation">
+                <li class="navigation_title"><a href="/homepage">Home Page</a></li>
+                <li class="navigation_title"><a href="/loremipsumgenerator">Lorem Ipsum Generator</a></li>
+                <li class="navigation_title"><a href="/randomusergenerator">Random User Generator</a></li>
+                <li class="navigation_title"><a href="/passwordgenerator">Password Generator</a></li>
+            </ul>
 
-</header>
+        </header>
 
-<section>
-    {{-- Main page content will be yielded here --}}
-    <div class="content">
-        @yield('content')
+        <section>
+            {{-- Main page content will be yielded here --}}
+            <div class="content">
+                @yield('content')
+            </div>
+        </section>
     </div>
-</section>
-
-<footer>
-    wendy jiang @ {{ date('Y') }} <img class="picture" src="/img/github.png"><a target="_blank" href="https://github.com/jw1992victory/P3">github</a>
-</footer>
-
-@yield('body')
+    <footer>
+        wendy jiang @ {{ date('Y') }} <img class="picture" src="/img/github.png"><a target="_blank" href="https://github.com/jw1992victory/P3">github</a>
+    </footer>
 
 </body>
 </html>
