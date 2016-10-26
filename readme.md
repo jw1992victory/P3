@@ -1,6 +1,6 @@
 # P3
 Live URL: http://p3.dynamicwebwendy.me/
-Demo URL: http://screencast.com/t/7yWi940Fz
+Demo URL: http://screencast.com/t/CgaIIFAJY
 
 ## Description 
 This project contains LoremIpsumGenerator, RandomUserGenerator and PasswordGenerator from Project 2
